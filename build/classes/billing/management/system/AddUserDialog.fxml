@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+
+<VBox prefWidth="400.0" spacing="10" style="-fx-padding: 20;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="billing.management.system.AddUserController">
+    <Label text="Add New User" style="-fx-font-size: 16; -fx-font-weight: bold;" />
+    <Label text="User Type" />
+    <ComboBox fx:id="userTypeComboBox" prefWidth="Infinity" promptText="Select user type" />
+    <Label text="Username" />
+    <TextField fx:id="usernameField" promptText="Enter username" />
+    <Label text="Password" />
+    <TextField fx:id="passwordField" promptText="Enter password" />
+    <Label text="Email" />
+    <TextField fx:id="emailField" promptText="Enter email" />
+    <Label fx:id="industryLabel" text="Industry" visible="false" />
+    <TextField fx:id="industryField" promptText="Enter industry" visible="false" />
+    <Label fx:id="startDateLabel" text="Start Date" visible="false" />
+    <DatePicker fx:id="startDatePicker" promptText="Select start date" visible="false" />
+    <HBox spacing="10" alignment="CENTER_RIGHT">
+        <Button text="Cancel" onAction="#handleCancel" style="-fx-background-color: #d9534f; -fx-text-fill: white;" />
+        <Button text="Add User" onAction="#handleAddUser" style="-fx-background-color: #5cb85c; -fx-text-fill: white;" />
+    </HBox>
+</VBox>
