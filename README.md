@@ -27,7 +27,24 @@ Billing Management System/
 
 ## 📷 Screenshots
 
-![GitHub Logo](https://github.com/FearThePLOTO/Billing-Management-System/tree/main/assets/User-manager.png)
+- User Management
+
+![GitHub Logo](https://github.com/FearThePLOTO/Billing-Management-System/blob/main/assets/User%20manager.png)
+
+
+- Bill Anylizer
+
+![GitHub Logo](https://github.com/FearThePLOTO/Billing-Management-System/blob/main/assets/Bill%20anylasis.png)
+
+
+- Company Login Overview
+
+![GitHub Logo](https://github.com/FearThePLOTO/Billing-Management-System/blob/main/assets/Company%20login.png)
+
+
+- Custmer Login Overview
+
+![GitHub Logo](https://github.com/FearThePLOTO/Billing-Management-System/blob/main/assets/Customer%20login.png)
 
 
 ## 🛠 Setup Instructions
