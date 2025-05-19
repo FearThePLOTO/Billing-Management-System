@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER" spacing="20" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="billing.management.system.ViewBillsController">
+    <padding>
+        <Insets bottom="20" left="20" right="20" top="20" />
+    </padding>
+    
+    <Text fx:id="titleText" style="-fx-font-size: 18px; -fx-font-weight: bold;" />
+    
+    <TableView fx:id="billsTable">
+        <columns>
+            <TableColumn fx:id="billIdColumn" prefWidth="100" text="Bill ID" />
+            <TableColumn fx:id="amountColumn" prefWidth="200.0" text="Amount ($)" />
+            <TableColumn fx:id="dateColumn" prefWidth="150.0" text="Date" />
+            <TableColumn fx:id="dueDateColumn" prefWidth="150.0" text="Due Date" />
+            <TableColumn fx:id="descriptionColumn" prefWidth="100.0" />
+        </columns>
+    </TableView>
+    
+    <HBox alignment="CENTER" spacing="10">
+        <Button fx:id="closeButton" onAction="#handleClose" text="Close" />
+    </HBox>
+</VBox>

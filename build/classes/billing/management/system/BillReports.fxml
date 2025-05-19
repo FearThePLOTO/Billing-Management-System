@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="TOP_CENTER" prefHeight="800.0" prefWidth="1350.0" spacing="20.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="billing.management.system.BillController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <!-- Filters Section -->
+    <HBox spacing="10.0">
+        <Label text="Start Date:" />
+        <DatePicker fx:id="startDatePicker" />
+        <Label text="End Date:" />
+        <DatePicker fx:id="endDatePicker" />
+        <Label text="Status:" />
+        <ComboBox fx:id="statusFilterCombo" prefWidth="150.0" />
+        <Button fx:id="applyFiltersButton" onAction="#applyBillFilters" style="-fx-background-color: #0f3c6b; -fx-text-fill: white;" text="Apply Filters" />
+      <Region prefHeight="26.0" prefWidth="257.0" />
+   
+       <!-- Action Buttons -->
+       <HBox alignment="CENTER" spacing="10.0" />
+    </HBox>
+
+    <!-- Statistics Section -->
+    <HBox alignment="CENTER" prefHeight="82.0" prefWidth="1310.0" spacing="75.0">
+        <VBox alignment="CENTER" spacing="5.0">
+            <Label text="Total Revenue" />
+            <Label fx:id="totalRevenueLabel" style="-fx-font-weight: bold;" />
+        </VBox>
+        <VBox alignment="CENTER" spacing="5.0">
+            <Label text="Average Bill" />
+            <Label fx:id="averageBillLabel" style="-fx-font-weight: bold;" />
+        </VBox>
+        <VBox alignment="CENTER" spacing="5.0">
+            <Label text="Paid Bills" />
+            <Label fx:id="paidBillsLabel" style="-fx-font-weight: bold;" />
+        </VBox>
+        <VBox alignment="CENTER" spacing="5.0">
+            <Label text="Unpaid Bills" />
+            <Label fx:id="unpaidBillsLabel" style="-fx-font-weight: bold;" />
+        </VBox>
+    </HBox>
+   <HBox prefHeight="566.0" prefWidth="1310.0">
+      <children>
+      
+          <!-- Bills Table -->
+          <TableView fx:id="billsTable" prefHeight="558.0" prefWidth="870.0">
+              <columns>
+                  <TableColumn fx:id="billIdColumn" prefWidth="100.0" text="Bill ID" />
+                  <TableColumn fx:id="valueColumn" prefWidth="120.0" text="Value" />
+                  <TableColumn fx:id="customerNameColumn" prefWidth="150.0" text="Customer" />
+                  <TableColumn fx:id="companyNameColumn" prefWidth="150.0" text="Company" />
+                  <TableColumn fx:id="dateColumn" prefWidth="120.0" text="Date" />
+               <TableColumn fx:id="dueDateColumn" prefWidth="120.0" text="Due Date" />
+                  <TableColumn fx:id="isPaidColumn" prefWidth="100.0" text="Paid" />
+              </columns>
+          </TableView>
+         <VBox prefHeight="558.0" prefWidth="438.0">
+            <children>
+                 <PieChart fx:id="paymentStatusChart" prefHeight="269.0" prefWidth="566.0" title="Payment Status Distribution" />
+                 <LineChart fx:id="revenueTrendChart" prefHeight="286.0" prefWidth="438.0" title="Revenue Trend">
+                     <xAxis>
+                         <CategoryAxis label="Month" />
+                     </xAxis>
+                     <yAxis>
+                         <NumberAxis label="Revenue" />
+                     </yAxis>
+                 </LineChart>
+            </children>
+         </VBox>
+      </children>
+   </HBox>
+
+    <!-- Pagination -->
+    <Pagination fx:id="billsPagination" maxPageIndicatorCount="5" pageCount="20" />
+</VBox>

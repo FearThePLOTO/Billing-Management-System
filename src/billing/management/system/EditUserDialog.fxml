@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="640.0" prefWidth="435.0" spacing="10" style="-fx-padding: 20;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="billing.management.system.EditUserController">
+    <Label style="-fx-font-size: 16; -fx-font-weight: bold;" text="Edit User" />
+    <Label text="Search Username" />
+    <HBox spacing="5">
+        <TextField fx:id="searchField" prefWidth="300.0" promptText="Enter username to search" />
+        <Button onAction="#handleSearch" prefHeight="24.0" prefWidth="103.0" style="-fx-background-color: #0f3c6b; -fx-text-fill: white;" text="Search">
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="19.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/search.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+    </HBox>
+    <Label text="User Type" />
+    <ComboBox fx:id="userTypeComboBox" disable="true" prefWidth="Infinity" promptText="Select user type" />
+    <Label text="ID" />
+    <TextField fx:id="idField" editable="false" promptText="User ID" />
+    <Label text="Username" />
+    <TextField fx:id="usernameField" disable="true" promptText="Enter username" />
+    <Label text="Password" />
+    <TextField fx:id="passwordField" disable="true" promptText="Enter password" />
+    <Label text="Email" />
+    <TextField fx:id="emailField" disable="true" promptText="Enter email" />
+    <Label fx:id="industryLabel" text="Industry" visible="false" />
+    <TextField fx:id="industryField" disable="true" promptText="Enter industry" visible="false" />
+    <Label fx:id="startDateLabel" text="Start Date" visible="false" />
+    <DatePicker fx:id="startDatePicker" disable="true" promptText="Select start date" visible="false" />
+    <HBox alignment="CENTER_RIGHT" spacing="10">
+        <Button onAction="#handleCancel" style="-fx-background-color: #d9534f; -fx-text-fill: white;" text="Cancel" />
+        <Button fx:id="saveButton" disable="true" onAction="#handleSaveChanges" style="-fx-background-color: #5cb85c; -fx-text-fill: white;" text="Save Changes" />
+    </HBox>
+</VBox>
