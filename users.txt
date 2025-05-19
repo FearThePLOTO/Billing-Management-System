@@ -1,0 +1,66 @@
+Admin,ahmed haitham,pass123,1,admin1@system.com
+Admin,abdullah ashraf,pass123,2,admin1@system.co 10
+Company,electric,el123,3,elec@sytem.com,electric distrbuation
+Company,water,wa123,4,wat@system.com,water distrbution
+Company,gas ,ga123,5,gas@system.com,gas distrbution
+Company,we internt,we123,6,we@system.com,internet
+Company,itsalat,it123,7,it@system.com,internet
+Company,orang,or123,8,or@system.com,internt
+Company,t-data,t123,9,t@system.com,internet
+Company,aramex,ar123,10,ar@system.com,shipping
+Company,olx,ol123,11,ol@system.com,classified ads
+Company,madent masr,ma123,12,ma@system.com,Real estate
+Company,rased company,ra123,13,ra@system.com,ra distrbution
+Company,baraka group,ba123,14,ba@system.com,retail services
+Company,delta pharma,de123,15,de@system.com,pharma distribution
+Company,ghabbour auto,gh123,16,gh@system.com,auto services
+Company,mantrac egypt,ma123,17,ma@system.com,machinery distribution
+Company,awfar market,aw123,18,aw@system.com,retail services
+Company,ezz steal,ez123,19,ez@system.com,steal
+Company,madenty,ma123,20,ma@system.com,Real estate
+Company,cleopatra hospital,cl123,21,cl@system.com,healthcare
+Company,edita,ed123,22,ed@system.com,food industry
+Company,misr cement,mi123,23,mi@system.com,construction
+Company,hassan allam,ha123,24,ha@system.com,real estate
+Company,mercedes,me123,25,me@system.com,automotive
+Company,bmw,bm123,26,bm@system.com,automotive
+Company,audi,au123,27,au@system.com,automotive
+Company,soliman elhabib,so123,28,so@system.com,healthcare
+Customer,abdallah taha,a123,29,a@system.com,1747429200000
+Customer,ahmed ezzat,a123,30,a@system.com,1747429200000
+Customer,ahmed zaki,a123,31,a@system.com,1747429200000
+Customer,mostafa hossein,m123,32,m@system.com,1747429200000
+Customer,eslam mohamed,e123,33,e@system.com,1747429200000
+Customer,abdallah khaled,a123,34,a@system.com,1747429200000
+Customer,mohamed magdy,m123,35,m@system.com,1747429200000
+Customer,ali magdy,a123,36,a@system.com,1747429200000
+Customer,youssef wael,y123,37,y@system.com,1747429200000
+Customer,mohamed mamdouh,m123,38,m@system.com,1747429200000
+Customer,sami ahmed,s123,39,s@system.com,1747429200000
+Customer,ahmed,a123,40,a@system.com,1747429200000
+Customer,said,s123,41,s@system.com,1747429200000
+Customer,ahmed abdulrahman,a123,42,a@system.com,1747429200000
+Customer,ali magdy,a123,43,a@system.com,1747429200000
+Customer,elhosiny amr,e123,44,e@system.com,1747429200000
+Customer,haitham mahmoud,h123,45,h@system.com,1747429200000
+Customer,salah hussein,s123,46,s@system.com,1747429200000
+Customer,rajab ahmed,r123,47,r@system.com,1747429200000
+Customer,mahmoud mohamed,m123,48,m@system.com,1747429200000
+Customer,hamza hamid,h123,49,h@system.com,1747429200000
+Customer,elbaraa ahmed,e123,50,e@system.com,1747429200000
+Customer,amir hatem,a123,51,a@system.com,1747429200000
+Customer,mostafa mamdouh,m123,52,m@system.com,1747429200000
+Customer,mahmoud hamada,m123,53,m@system.com,1747429200000
+Customer,ahmed khaled,a123,54,a@system.com,1747429200000
+Customer,sara ahmed,s123,55,s@system.com,1747429200000
+Customer,fatma ali,f123,56,f@system.com,1747429200000
+Customer,nour mohamed,n123,57,n@system.com,1747429200000
+Customer,asmaa hassan,a123,58,a@system.com,1747429200000
+Customer,hanan karim,h123,59,h@system.com,1747429200000
+Customer,nesma saleh,n123,60,n@system.com,1747429200000
+Customer,lamia mahmoud,l123,61,l@system.com,1747429200000
+Customer,manar khaled,m123,62,m@system.com,1747429200000
+Customer,aya wael,a123,63,a@system.com,1747429200000
+Customer,nahed adel,n123,64,n@system.com,1747429200000
+Company,com,c123,65,test@test.com,testsing
+Customer,cus,c123,66,test@test.com,1747429200000
