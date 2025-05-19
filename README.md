@@ -37,7 +37,7 @@ Billing Management System/
 ![GitHub Logo](https://github.com/FearThePLOTO/Billing-Management-System/blob/main/assets/User%20manager.png)
 
 
-- Bill Anylizer
+- Bill Analyzer
 
 ![GitHub Logo](https://github.com/FearThePLOTO/Billing-Management-System/blob/main/assets/Bill%20anylasis.png)
 
