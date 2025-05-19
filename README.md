@@ -19,13 +19,16 @@ Billing Management System/
 ├── src/                         # Java source files
 ├── build/                       # Compiled class files
 ├── dist/                        # Distribution JAR
-├── Database/                    # Contains data and config files
 ├── bills.txt                    # Stores bill records
 ├── users.txt                    # Stores user credentials
-├── BillReport_*.tex             # Generated LaTeX bill reports
 ├── build.xml                    # Ant build script
 ├── manifest.mf                  # Manifest file for JAR
 ```
+
+## 📷 Screenshots
+
+![GitHub Logo](https://github.com/FearThePLOTO/Billing-Management-System/tree/main/assets/User-manager.png)
+
 
 ## 🛠 Setup Instructions
 
